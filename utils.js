@@ -16,3 +16,9 @@ function createElement(tagName, attributes = {}, style = {}, text) {
   }
   return el;
 }
+
+function isFunction(functionToCheck) {
+  return (
+    functionToCheck && {}.toString.call(functionToCheck) === "[object Function]"
+  );
+}
