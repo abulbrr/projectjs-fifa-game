@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>FIFA game</title>
+  </head>
+  <body>
+    <h1 onclick="matchesManagerMode()">FOOTBALL</h1>
+    <h3 onclick="searchMode()">Search</h3>
+
+    <div id="app" class="row"></div>
+
+    <script src="utils.js"></script>
+    <script src="CountryCodes.js"></script>
+    <script src="Constansts.js"></script>
+    <script src="Ajax.js"></script>
+    <script src="managers/SearchManager.js"></script>
+    <script src="managers/SelectedMatchManager.js"></script>
+    <script src="managers/MatchesManager.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
